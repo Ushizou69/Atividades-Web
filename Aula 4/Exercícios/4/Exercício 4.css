@@ -1,0 +1,143 @@
+
+*{
+margin: 0px;
+padding: 0px;
+box-sizing: border-box;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;    
+    background-color: rgb(211, 67, 10);
+    border: 2px solid rgb(124, 43, 0);
+}
+
+.sticky2{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;    
+    background-color: rgb(22, 71, 168);
+    border: 2px solid rgb(0, 58, 124);
+}
+
+.sticky3{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;    
+    background-color: rgb(97, 168, 22);
+    border: 2px solid rgb(17, 124, 0);
+}
+
+.sticky4{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 70px;    
+    background-color: rgb(212, 189, 13);
+    border: 2px solid rgb(124, 120, 0);
+}
+
+#principal{
+    background-image: url("img/crash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#primeiro{
+    background-image: url("img/sonic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#segundo{
+    background-image: url("img/zelda.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#terceiro{
+    background-image: url("img/mine.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    color: transparent;
+    font-size: 40px;
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    margin: 10px 16px;
+    padding-top: 15px;
+}
+
+nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    padding: 16px;  
+}
+
+.pag:hover{
+    border-radius: 5px;
+    background-color: rgb(124, 43, 0);
+}
+
+.pag1:hover{
+    border-radius: 5px;
+    background-color: rgb(0, 58, 124);
+}
+
+.pag2:hover{
+    border-radius: 5px;
+    background-color: rgb(17, 124, 0);
+}
+
+.pag3:hover{
+    border-radius: 5px;
+    background-color: rgb(124, 120, 0);
+}
+
+#logo{
+    position: fixed;    
+    color: white;
+    left: 15px;
+    padding-top: 18px;
+}

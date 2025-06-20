@@ -1,0 +1,21 @@
+body{
+    /* background-color: rgb(39, 44, 52); */
+    /* mudar a cor do fundo */
+    background-image: url(imagens2/fundo.jpg);
+    /* colocar imagem no fundo */
+    background-repeat: no-repeat;
+    /* nao repetir a imagem para preencher */
+    background-size: cover;
+    /* cover tenta ajustar o tamanho da imagem */
+}
+h1{
+    color: blueviolet;
+}
+h2{
+    color: #B22222;
+    
+}
+p{
+    color: darkgreen;
+    
+}

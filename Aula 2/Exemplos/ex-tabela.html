@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+</head>
+<body>
+    <h1>Exemplo de Tabela</h1>
+
+    <table border='2'>
+        <!--table para iniciar a tabela-->
+        <!--border para colocar uma borda em volta da tabela, quanto maior o
+        numero maior a borda-->
+        <caption>Estudantes do campus</caption>
+        <tr><th>Nome</th><th>Idade</th><th>Curso</th></tr>
+        <tr><td>João<td>28<td rowspan="2">ADS</td></tr>
+        <!--rowspan expande a linha-->
+        <tr><td>Maria<td>30<td></td></tr>
+        <tr><td colspan="2">Roberto<td>Mat.</td></tr>
+        <!--coslpan expande a coluna-->
+        <!--tr para linha-->
+        <!--td para coluna, vai dentro do tr-->
+        <!--th para cabeçalho, vai dentro do tr-->
+    </table>
+
+</body>
+</html>

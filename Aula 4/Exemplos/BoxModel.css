@@ -1,0 +1,57 @@
+/* Borda */
+
+body{
+background-color: rgb(39, 44, 52);
+}
+
+p{
+    border-top: 2px solid blue;
+    /* Em cima */
+    border-bottom: 2px solid blue;
+    /* Em baixo */
+    border-right: 5px solid red;
+    /* Na direita */
+    border-left: 5px solid red;
+    /* Na esquerda */
+}
+
+/* Largura e Altura */
+p{
+    width: 200px;
+    /* width: 50%; */
+    /* height: 100px; */
+}
+
+/* Padding */
+
+p{
+    /* padding: 20px; */
+    /* Preenchimento */
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 5px;
+    /* Aplica o padding nos quatro lados (top right bottom left) */
+    padding: 10px 20px 10px 20px;
+}
+
+/* Margin */
+
+p{
+    /* margin: 20px 20px 50px 50px; */
+    /* Aplica uma distância dos cantos */
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* centraliza o elemento na horizontal - para funcionar, o elemento
+    precisa ter um width definido. */
+    margin: 20px auto;
+    /* Distancia entre as caixas e centraliza. */
+}
+
+/* Centraliza o texto dentro do parágrafo. */
+p{
+    text-align: center;
+    /* centraliza */
+    /* text-align: justify; */
+    /* justifica */
+}

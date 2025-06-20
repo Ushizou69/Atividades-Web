@@ -1,0 +1,96 @@
+/* Elemento */
+li{
+    color: lightblue;
+    /* seleciona todas as linhas e deixa azul */
+}
+a{
+    text-decoration: none;
+/* tira o sublinhado dos links */
+}
+    
+/* ID */
+#banana{
+    /* # eh para selecionar ids em css, eh algo mais especifico */
+    color: yellow;
+}
+#LinkGoogle{
+    color: white;
+    background-color: darkgray;
+}
+    
+body{
+    background-color: rgb(53, 54, 62);
+}
+
+/* Classes */
+.verde{
+    /* . eh para selecionar classes, eh para aplicar diversos elementos */
+    color: green;
+}
+.italico{
+    font-style: italic;
+}
+.laranja{
+    color: orange;
+}
+#maçã{
+    color: red;
+}
+
+/* Seletor de Descendencia */
+
+li a{
+    /* seleciona somente os as que estão dentro de li */
+    color: red;
+}
+
+/* Seletor Adjacente */
+
+h4 + ul{
+    /* seleciona o ul que vem a seguir do h4; */
+    border: 4px solid red;
+}
+
+/* Seletor de Atributo */
+
+a[href="https://www.google.com/"]{
+    background: blue;
+    color: white;
+}
+
+/* Enésimo do Tipo */
+li:nth-of-type(even){
+    /* Ele seleciona um sim um não */
+    background-color: rgb(252, 158, 96);
+}
+li:nth-of-type(odd){
+    background-color: rgb(181, 254, 73);
+}
+
+/* Seletor de Pseudo-classe  */
+a:link{
+    /* deixa os links escuros */
+    color: black;
+}
+a:visited{
+    /* quando visita */
+    color: grey;
+}
+a:hover{
+    /* hover eh para acontecer algo quando o mouse esta em cima */
+    color: rgb(118, 118, 255);
+}
+a:active{
+/* quando clica */
+color: aliceblue;
+}
+
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* altera a fonte */
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}

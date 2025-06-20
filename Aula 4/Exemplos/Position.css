@@ -1,0 +1,47 @@
+#absoluto1{
+    width: 300px;
+    background-color: blue;
+    position: absolute;
+    /* Absolute se mexe em relação à página. */
+    top: 100px;
+    left: 100px;
+    z-index: 3;
+    /* Define a ordem */
+}
+#absoluto2{
+    width: 300px;
+    background-color: red;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 2;
+}
+#absoluto3{
+    width: 300px;
+    background-color: green;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    z-index: 1;
+}
+
+#fixo{
+    width: 300px;
+    background-color: gray;
+    position: fixed;
+    /* Fica fixo à página. */
+    top: 50px;
+    right: 0px;
+}
+#sticky{
+    position: sticky;
+    /* Trava em determinada posição */
+    top: 0px;
+    background-color: yellow;
+    border: 2px solid black;
+}
+#relative{
+    position: relative;
+    /* Ajusta sua posição na página, mas não altera o fluxo. */
+    left: 50px;
+}

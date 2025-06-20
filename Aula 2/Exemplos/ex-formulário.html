@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários HTML</title>
+</head>
+<body>
+    <h2>Exemplo de formulário</h2>
+    <form action="/processar" method="get">
+        <!-- form para começar um formulario -->
+
+<!-- <label>Nome: <input type="text"></label> -->
+<!-- as linhas acima e abaixo fazem a mesma coisa -->
+<!-- <label for="nome">Nome: </label><input type="text" id="nome"> -->
+<!-- label para serve para rotular o que vem antes da linha para escrever -->
+
+<p>
+    <input type="text" placeholder="Nome" required autofocus>
+    <!-- required é pra ser obrigatório e autofocus pra vir pre selecionado -->
+    <input type="text" placeholder="Sobrenome">
+</p>
+
+<p>
+    <input type="email" placeholder="E-mail">
+    <input type="password" placeholder="Senha">
+</p>
+
+<!-- <label>Data: </label><input type="date">
+<input type="color">
+<input type="file"> -->
+
+<p>
+    <label><input type="checkbox">Concordo com os termos</label>
+    <!-- so da pra marcar a caixa com o "Concordo com os termos" por conta da label -->
+</p>
+
+<p> Escolha um turno:
+<label><input type="radio" name="turno">Manhã</label>
+<label><input type="radio" name="turno">Tarde</label>
+<label><input type="radio" name="turno">Noite</label>
+
+<!-- name="" limita a escolher somente um, mesclando os 3 -->
+</p>
+
+<p>
+    <label>Selecione um curso:
+<select name="curso">
+<option value="" disabled selected>Curso</option>
+<option value="ADS">ADS</option>
+<option value="TPG">TPG</option>
+<option value="LicMat">Lic. Matemática</option>
+<option value="LicLetras">Lic. Letras</option>
+<option value="EMIInfo">EMI Info</option>
+<option value="EMIADM">EMI ADM</option>
+</select>
+<!-- select para selecionar uma opção
+option as opções
+value o texto selecionável -->
+    </label>
+</p>
+
+<label>Selecione um ou mais dias:
+<select name="dias" multiple>
+<option value="segunda">Segunda</option>
+<option value="terça">Terça</option>
+<option value="quarta">Quarta</option>
+<option value="quinta">Quinta</option>
+<option value="sexta">Sexta</option>
+<!-- multiple te deixa escolher mais de uma opção -->
+</select>
+</label>
+
+<p>
+    <label>Envie uma sugestão<br>
+        <textarea name="sugestão" placeholder="Digite aqui sua sugestão" 
+        cols="30" rows="10"></textarea>
+    </label>
+</p>
+
+<p>
+    <input type="submit">
+</p>
+    </form>
+</body>
+</html>

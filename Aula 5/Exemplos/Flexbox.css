@@ -1,0 +1,31 @@
+.flex-container{
+    display: flex;
+    /* obrigatório, orgazina todos reto. */
+    flex-wrap: wrap;
+    /* quebra linha baseado no tamanho. */
+    justify-content: space-evenly; 
+    /* define o alinhamento dos ítens no eixo
+    principal, através da distribuição do espaço livre (aplicado no
+    container). */
+    align-items: stretch;
+    /* define o alinhamento dos ítens no eixo
+    transversal, através da distribuição do espaço livre (aplicado no
+    container). */
+}
+.flex-item{
+    flex-basis: 200px;
+    /* define o tamanho que cabe na tela sem até quebrar linha
+    como height e width, */
+    background-color: rgb(27, 120, 120);
+    margin: 5px;
+    padding: 10px;
+    color: white;
+    /* flex: 1 2 200px;
+    grow shrink basis. */
+}
+.terceiro{
+    /* flex-grow: 2; */
+    /* cresce baseado no tamanho da tela. */
+    /* flex-shrink: 1; */
+    /* encolhe */
+}

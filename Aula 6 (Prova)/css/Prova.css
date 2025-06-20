@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Blinker:wght@100;200;300;400;600;700;800;900&display=swap');
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    float: left;
+}
+
+.um{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.dois{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+.tres{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 25px; 
+}
+
+#borda1{
+    padding: 15px;
+    border: dashed 2px white;
+}
+
+#borda2{
+    padding: 15px;
+    border: dashed 2px white;
+}
+
+#borda3{
+    padding: 15px;
+    border: dashed 2px white;
+}
+
+body{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+nav{
+    background-color: darkblue;
+}
+
+.texto{
+    margin-left: 140px;
+    position: relative;
+    bottom: 20px;
+    color: white;
+    font-family: "Blinker";
+}
+
+.texto1{
+    position: relative;
+    bottom: 2px;
+    padding-top: 5px;
+    left: 13px;
+    color: white;
+    font-family: "Blinker";
+}
+
+input[type="text"]{
+    width: 340px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+#voltar{
+    float: none;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+#enviar{
+    margin-left: 25px;
+    position: relative;
+    bottom: 5px;
+    left: 7px;
+    color: white;
+    font-family: "Blinker";
+}
+
+h1{
+    color: white;
+    font-family: "Blinker";
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 300px;
+    font-size: 45px;
+    background-color: darkblue;
+}
+
+#copy{
+    color: white;
+    font-family: "Blinker";
+    background-color: darkblue;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 600px;
+}

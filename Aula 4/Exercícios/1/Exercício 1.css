@@ -1,0 +1,153 @@
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.centro{
+    position: relative;
+    left: 385px;
+    top: 2px;        
+}
+
+.meio{
+    position: relative;
+    left: 385px;
+    bottom: 1px;
+}
+
+.baixo{
+    position: relative;
+    left: 385px;
+    bottom: 3px;
+}
+
+#primeiro:hover{
+    position: relative;
+    left: 2px;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#primeiro{
+    width: 50px;
+    height: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+#segundo:hover{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+
+#segundo{
+    width: 50px;
+    height: 50px;
+    padding: 50px 50px 50px 50px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#terceiro:hover{
+    position: relative;
+    right: 2px;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#terceiro{
+    width: 50px;
+    height: 50px;
+    padding: 50px 50px 50px 50px;
+}
+
+#quarto:hover{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#quarto{
+    position: relative;
+    left: 2px;
+    width: 50px;
+    height: 50px;
+    padding: 50px 50px 50px 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#quinto:hover{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#quinto{
+    width: 50px;
+    height: 50px;
+    padding: 50px 50px 50px 50px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#sexto:hover{
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
+}
+
+#sexto{
+    position: relative;
+    right: 2px;
+    width: 50px;
+    height: 50px;
+    padding: 50px 50px 50px 50px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+#setimo:hover{
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#setimo{
+    position: relative;
+    left: 2px;
+    width: 50px;
+    height: 50px;
+    padding: 50px 50px 50px 50px; 
+}
+
+#oitavo:hover{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#oitavo{
+    width: 50px;
+    height: 50px;
+    padding: 50px 50px 50px 50px;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+}
+
+#nono:hover{
+    position: relative;
+    right: 2px;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#nono{
+    width: 50px;
+    height: 50px;
+    padding: 50px 50px 50px 50px;
+}
