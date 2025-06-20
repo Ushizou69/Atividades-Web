@@ -1,0 +1,17 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    height: 100vH;
+}
+
+button{
+    padding: 20px;
+    font-size: 30px;
+}
+
+p{
+    font-size: 30px;
+    margin-left: 50px;
+}

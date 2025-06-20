@@ -1,0 +1,11 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vH;
+}
+
+button{
+    padding: 20px;
+    font-size: 30px;
+}
