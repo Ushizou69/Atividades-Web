@@ -1,0 +1,67 @@
+body{
+    margin: 0;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    background-color: rgb(0, 28, 73);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 100px;
+    width: 100%;
+}
+
+.flex-item{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    float: left;
+    margin-left: 70px;
+    font-size: 25px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+main p{
+    font-size: 20px;
+    max-width: 1000px;
+}
+
+main input{
+    width: 200px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+input[type="button"]{
+    width: 60px;
+    height: 25px;
+}
+
+img{
+    display: flex;
+    justify-content: center;
+    height: 4%;
+    width: 4%;
+    cursor: pointer;
+}
+
+#validacao{
+    font-size: 30px;
+}
